@@ -1,5 +1,5 @@
 <?php
-include '../public/configuração.php';
+include './configuracao.php';
 
 ?>
 

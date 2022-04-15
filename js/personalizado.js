@@ -1,7 +1,7 @@
 function pagamento(){
     console.log('Acessou');
     var endereco = jQuery('.endereco').attr('data-endereco');
-    $.ajaxt({
+    $.ajax({
         url: endereco + "pagamento.php",
         type: 'POST',
         datatype: 'json',

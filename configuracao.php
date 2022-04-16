@@ -1,5 +1,5 @@
 <?php
-define('URL','http://127.0.0.1:8000/');
+define('URL','https://api-pagseguro.herokuapp.com/');
 
 $sandbox = true;
 if($sandbox){

@@ -18,6 +18,6 @@ include 'configuracao.php';
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo SCRIPT_PAGSEGURO; ?>"></script>
-    <script src="js/personalizado.js"></script>
+    <script src="./js/personalizado.js"></script>
 </body>
 </html>

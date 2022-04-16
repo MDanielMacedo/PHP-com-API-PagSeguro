@@ -6,7 +6,8 @@ function pagamento(){
         type: 'POST',
         datatype: 'json',
         success: function(retorno){
-            console.log(retorno);
+            // console.log(retorno);
+            PagSeguroDirectPayment.setSessionId(retorno.id);
         }
     });
 }

@@ -5,7 +5,7 @@ function pagamento(){
         url: endereco + "pagamento.php",
         type: 'POST',
         datatype: 'json',
-        sucess: function(retorno){
+        success: function(retorno){
             concole.log(retorno);
         }
     });

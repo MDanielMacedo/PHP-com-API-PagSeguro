@@ -6,7 +6,6 @@ function pagamento(){
         type: 'POST',
         datatype: 'json',
         success: function(retorno){
-            console.log(retorno);
             PagSeguroDirectPayment.setSessionId(retorno.id);
         },
         complete: function(retorno) {

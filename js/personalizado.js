@@ -6,7 +6,7 @@ function pagamento(){
         type: 'POST',
         datatype: 'json',
         success: function(retorno){
-            concole.log(retorno);
+            console.log(retorno);
         }
     });
 }

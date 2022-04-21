@@ -1,0 +1,19 @@
+{
+  "name": "php-com-api-pagseguro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDanielMacedo/PHP-com-API-PagSeguro.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MDanielMacedo/PHP-com-API-PagSeguro/issues"
+  },
+  "homepage": "https://github.com/MDanielMacedo/PHP-com-API-PagSeguro#readme"
+}
